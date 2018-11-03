@@ -31,6 +31,7 @@ dict_zuipuh = {1:
 ,'False Negatives en False Positives'
 ,'"Feature" in machine learning'
 ,'Wat is er "deep" aan deep learning?'
+,'Wat betekent het "workz" van Dataworkz eigenlijk?'
 ,'Hoeveel nullen heeft een biljoen?'],
 
 
