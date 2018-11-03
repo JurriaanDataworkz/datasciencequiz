@@ -1,6 +1,7 @@
 # datasciencequiz
 
-requirements
+requirements:
+
 python 3
 PyQt5
 
