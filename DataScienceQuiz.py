@@ -88,11 +88,11 @@ class App(QWidget):
     
     def choose_random_question(self, dict_shuffled, level):      
         question = next(dict_shuffled[level], None)
-        
+
         if not question:
             print('deck empty, deck reshuffled')
             self.dict_shuffled = self.shuffle_questions(dict_zuipuh)
-            question = next(self.dict_shuffled, None)  
+            question = next(self.dict_shuffled[level], None)  
         
         return question
             
