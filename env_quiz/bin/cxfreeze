@@ -1,0 +1,6 @@
+#!/Users/jurriaan/env_quiz/bin/python3
+
+from cx_Freeze import main
+
+main()
+
