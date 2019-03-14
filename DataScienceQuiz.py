@@ -86,7 +86,7 @@ class App(QWidget):
             dict_shuffle[key] = iter(sample(dic[key], len(dic[key])))            
         return dict_shuffle
     
-    def choose_random_question(self, dict_shuffled, level):      
+    def choose_random_question(self, dict_shuffled, level):
         question = next(dict_shuffled[level], None)
 
         if not question:
